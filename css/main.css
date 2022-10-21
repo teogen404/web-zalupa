@@ -1,0 +1,638 @@
+body{
+    width: 100%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.header{
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header__wrapper{
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    margin-left: 133px;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item{
+    list-style-type: none;
+    margin-right: 65px;
+}
+.header__menu{
+    margin-right: 40px;
+}
+.header__logo-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+}
+.header__item{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.intro{
+    min-height: 100vh;
+    margin-top: -110px;
+    background: url(../img/bg-image.jpg) no-repeat center /cover;
+}
+.intro__subtitle{
+    text-align: center;
+    padding-top: 378px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.55em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.intro__title{
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 305px;
+    color: #fff;
+}
+.plan-a-trip{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.main__item{
+    margin: 10px;
+    min-height: 80px;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+.header__menu-pic{
+    padding: 10px 20px 10px 20px;
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.main__menu-pic{
+    padding: 0 20px 0 20px;
+}
+.header__menu-pic:hover{
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    margin-top: -10px;
+    background-color: rgb(248, 117, 61);
+    border-radius: 15px;
+}
+.main__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 4px;
+    padding-right: 20px;
+}
+.main__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.activities{
+    height: 100vh;
+}
+.activities__subtitle{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7em;
+    color: #474747;
+}
+.activities__title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #2D2D2D;
+}
+.activities__pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 150px;
+}
+.activities__item-1{
+    background: url(../img/activities_1.jpg) no-repeat center /cover;
+    height: 450px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.activities__item-2{
+    background: url(../img/activities_2.jpg) no-repeat center /cover;
+    height: 450px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.activities__item-3{
+    background: url(../img/activities_3.jpg) no-repeat center /cover;
+    height: 450px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.activities__item-4{
+    background: url(../img/activities_4.jpg) no-repeat center /cover;
+    height: 450px;
+    width: 280px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.activities__item-title{
+    margin-top: 370px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.activities__item-subtitle{
+    margin-top: -5px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    opacity: 0.6;
+}
+.philosophy__subtitle{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7em;
+    text-transform: uppercase;
+    color: #474747;
+}
+.philosophy__title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #2D2D2D;
+}
+.philosophy{
+    height: 100vh;
+}
+.philosophy__main-info{
+    display: flex;
+    margin-top: 100px;
+}
+.philosophy-img{
+    background: url(../img/philosophy-image.jpg) center no-repeat;
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.philosophy__side-1{
+    width: 60%;
+}
+.philosophy__side-2{
+    width: 40%;
+}
+.philosophy-list{
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.philosophy__item-number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: black;
+    opacity: 0.3;
+}
+.philosophy-list__item-1{
+    width: 10%;
+}
+.philosophy-list__item-2{
+    width: 90%;
+}
+.philosophy__item-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    color: black;
+}
+.philosophy__item-subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+    opacity: 0.8;
+}
+.hotels{
+    height: 100vh;
+}
+.tickets{
+    background-color: #F4F4F4;
+    height: 55vh;
+    margin-top: -15vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 0 200px;
+}
+.hotels__ticket{
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    height: 70px;
+    width: 270px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #4E4E4E;
+}
+.hotels__ticket-search{
+    height: 70px;
+    width: 200px;
+    margin-top: 165px;
+    background-color: #3D3D3D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 0;
+}
+.hotels__ticket-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    color: #9B9B9B;
+    margin-top: 140px;
+    margin-bottom: 10px;
+}
+.hotels__subtitle{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7em;
+    text-transform: uppercase;
+    color: #474747;
+}
+.hotels__title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #2D2D2D;
+}
+.hotels__pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 100px;
+}
+.hotels__item-1{
+    background: url(../img/hotels-1.jpg) center no-repeat;
+    height: 280px;
+    width: 400px;
+    border-radius: 15px;
+}
+.hotels__item-2{
+    background: url(../img/hotels-2.jpg) center no-repeat;
+    height: 280px;
+    width: 400px;
+    border-radius: 15px;
+}
+.hotels__item-3{
+    background: url(../img/hotels-3.jpg) center no-repeat;
+    height: 280px;
+    width: 400px;
+    border-radius: 15px;
+}
+.hotels__item-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 290px;
+}
+.hotels__item-subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #959595;
+}
+@media screen and (min-width: 1400px) {
+    .plan-a-trip{
+        padding: 0 150px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+    .intro__title {
+        font-size: 240px;
+    }
+    .plan-a-trip{
+        padding: 0 100px;
+    }
+    .header__logo{
+        margin-left: 80px;
+    }
+}
+.header__list.active{
+    right: 0;
+}
+@media screen and (min-width: 650px) and (max-width: 1099px) {
+    .intro__title {
+        font-size: 150px;
+    }
+    .plan-a-trip{
+        padding: 0 50px;
+    }
+    .header__logo{
+        margin-left: 60px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 649px) {
+    .intro__title {
+        font-size: 120px;
+    }
+    .plan-a-trip{
+        padding: 0 0;
+    }
+    .header__logo{
+        margin-left: 40px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .header{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .intro__title {
+        font-size: 70px;
+    }
+    .intro__subtitle{
+        font-size: 20px;
+    }
+    .plan-a-trip{
+        padding: 0 20px 30px 20px;
+    }
+    .main__item{
+        min-width: 300px;
+        min-height: 30px;
+    }
+    .header__logo{
+        margin-left: 20px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+    .activities__subtitle{
+        font-size:15px;
+    }
+    .activities__title{
+        font-size: 25px;
+    }
+    .activities__pic{
+        margin-top: 40px;
+        padding: 0 55px;
+    }
+    .activities__item-1{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-2{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-3{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-4{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-title{
+        margin-top: 225px;
+    }
+    .philosophy__subtitle{
+        font-size:15px;
+        margin-top: 680px;
+    }
+    .philosophy__title{
+        font-size: 25px;
+    }
+    .philosophy-img{
+        margin-top: -50px;
+        margin-left: 30px;
+        height: 350px;
+        width: 350px;
+    }
+    .philosophy-list{
+        margin-left: -200px;
+        width: 300px;
+    }
+    .philosophy__side-2{
+        padding-top: 350px;
+    }
+    .philosophy-list__item-1{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .philosophy{
+        height: 180vh;
+    }
+    .hotels__pic{
+        padding: 0 50px;
+    }
+    .hotels__item-1{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-2{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-3{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-title{
+        margin-top: 200px;
+        font-size: 22px;
+    }
+    .hotels__item-subtitle{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .hotels{
+        height: 100vh;
+    }
+    .tickets{
+        background-color: #F4F4F4;
+        height: 100vh;
+        margin-top: -25vh;
+    }
+    .tickets{
+        padding: 0 50px;
+    }
+    .hotels__ticket{
+        width: 290px;
+    }
+    .hotels__ticket-title:first-child{
+        margin-top: 400px;
+    }
+    .hotels__ticket-title:not(:first-child){
+        margin-top: -200px;
+    }
+    .hotels-ticket{
+        margin-top: -350px;
+        margin-bottom: -300px;
+    }
+    .hotels__ticket-search{
+        margin-top: 260px;
+        margin-left: 40px;
+    }
+}
