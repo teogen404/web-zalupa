@@ -1,0 +1,224 @@
+@media screen and (min-width: 1400px) {
+    .plan-a-trip{
+        padding: 0 150px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+    .intro__title {
+        font-size: 240px;
+    }
+    .plan-a-trip{
+        padding: 0 100px;
+    }
+    .header__logo{
+        margin-left: 80px;
+    }
+}
+.header__list.active{
+    right: 0;
+}
+@media screen and (min-width: 650px) and (max-width: 1099px) {
+    .intro__title {
+        font-size: 150px;
+    }
+    .plan-a-trip{
+        padding: 0 50px;
+    }
+    .header__logo{
+        margin-left: 60px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 649px) {
+    .intro__title {
+        font-size: 120px;
+    }
+    .plan-a-trip{
+        padding: 0 0;
+    }
+    .header__logo{
+        margin-left: 40px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .header{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .intro__title {
+        font-size: 70px;
+    }
+    .intro__subtitle{
+        font-size: 20px;
+    }
+    .plan-a-trip{
+        padding: 0 20px 30px 20px;
+    }
+    .main__item{
+        min-width: 300px;
+        min-height: 30px;
+    }
+    .header__logo{
+        margin-left: 20px;
+    }
+    .header__list{
+        display: flex;
+        position: fixed;
+        max-width: 200px;
+        flex-wrap: wrap;
+        top: 111px;
+        right: -260px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 500ms;
+    }
+    .header__item{
+        padding: 15px 0;
+        font-size: 24px;
+    }
+    .activities__subtitle{
+        font-size:15px;
+    }
+    .activities__title{
+        font-size: 25px;
+    }
+    .activities__pic{
+        margin-top: 40px;
+        padding: 0 55px;
+    }
+    .activities__item-1{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-2{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-3{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-4{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .activities__item-title{
+        margin-top: 225px;
+    }
+    .philosophy__subtitle{
+        font-size:15px;
+        margin-top: 680px;
+    }
+    .philosophy__title{
+        font-size: 25px;
+    }
+    .philosophy-img{
+        margin-top: -50px;
+        margin-left: 30px;
+        height: 330px;
+        width: 330px;
+    }
+    .philosophy-list{
+        margin-left: -200px;
+        width: 300px;
+    }
+    .philosophy__side-2{
+        padding-top: 350px;
+    }
+    .philosophy-list__item-1{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .philosophy{
+        height: 180vh;
+    }
+    .hotels__pic{
+        padding: 0 50px;
+    }
+    .hotels__item-1{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-2{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-3{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .hotels__item-title{
+        margin-top: 200px;
+        font-size: 22px;
+    }
+    .hotels__item-subtitle{
+        margin-top: -5px;
+        font-size: 1em;
+    }
+    .hotels{
+        height: 100vh;
+    }
+    .tickets{
+        background-color: #F4F4F4;
+        height: 100vh;
+        margin-top: -25vh;
+    }
+    .tickets{
+        padding: 0 50px;
+    }
+    .hotels__ticket{
+        width: 290px;
+    }
+    .hotels__ticket-title:first-child{
+        margin-top: 400px;
+    }
+    .hotels__ticket-title:not(:first-child){
+        margin-top: -200px;
+    }
+    .hotels-ticket{
+        margin-top: -350px;
+        margin-bottom: -300px;
+    }
+    .hotels__ticket-search{
+        margin-top: 260px;
+        margin-left: 40px;
+    }
+}
