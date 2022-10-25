@@ -92,20 +92,26 @@
     .header__logo{
         margin-left: 20px;
     }
+    .header__logo-text{
+        margin-left: 10px;
+    }
     .header__list{
         display: flex;
         position: fixed;
         max-width: 200px;
         flex-wrap: wrap;
-        top: 111px;
+        top: 75px;
         right: -260px;
-        padding: 30px;
+        padding: 25px;
         background-color: rgba(0, 0, 0, 0.7);
         transition: 500ms;
     }
     .header__item{
         padding: 15px 0;
         font-size: 24px;
+    }
+    .header__menu-pic{
+        margin-right: -25px;
     }
     .activities__subtitle{
         font-size:15px;
