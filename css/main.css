@@ -19,10 +19,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-}
-.header__logo{
-    margin-left: 133px;
+    justify-content: space-around;
 }
 .header__list{
     display: flex;
@@ -79,12 +76,13 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 250px;
+    justify-content: space-around;
+}
+.main__text{
+    padding-left: 20px;
 }
 .main__item{
-    margin: 10px;
+    margin: 15px;
     min-height: 80px;
     min-width: 300px;
     display: flex;
@@ -154,8 +152,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
+    justify-content: space-around;
+    padding: 0 100px;
     margin-top: 150px;
 }
 .activities__item-1{
@@ -234,6 +232,9 @@ a{
 }
 .philosophy__main-info{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     margin-top: 100px;
 }
 .philosophy-img{
@@ -243,18 +244,15 @@ a{
     border-radius: 20px;
     margin-left: 100px;
 }
-.philosophy__side-1{
-    width: 60%;
-}
-.philosophy__side-2{
-    width: 40%;
+.philosophy__side{
+    margin-top: 50px;
 }
 .philosophy-list{
+    width: 500px;
     margin-right: 100px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
 }
 .philosophy__item-number{
