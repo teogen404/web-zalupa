@@ -16,6 +16,7 @@
 }
 .header__list.active{
     right: 0;
+    width: fit-content;
 }
 @media screen and (min-width: 650px) and (max-width: 1099px) {
     .intro__title {
@@ -30,7 +31,6 @@
     .header__list{
         display: flex;
         position: fixed;
-        max-width: 200px;
         flex-wrap: wrap;
         top: 111px;
         right: -260px;
